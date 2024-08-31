@@ -1,0 +1,22 @@
+@media (max-width: 1760px) {
+	.wrap {
+		margin: 50px 220px;
+	}
+}
+
+@media (max-width: 1060px) {
+	* {
+		font-size: 80%;
+	}
+
+	.wrap { margin: 25px 0; padding: 0 10px; }
+
+    	article.cover .photo, article.cover .color {
+		width: 100%;
+		display: block;
+	}
+
+	article.cover .color {
+		display: none;
+	}
+}
